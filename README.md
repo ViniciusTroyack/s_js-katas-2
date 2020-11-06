@@ -13,6 +13,9 @@ Usaremos a palavra-chave [return](https://developer.mozilla.org/pt-BR/docs/Web/J
 
 Ao falar das restrições de implementação, qualquer coisa que eu disser sobre funções também vale para métodos (falaremos sobre a diferença entre eles em breve).
 
+### Nesse katas nós não vamos utilizar métodos de iteração de array(forEach, map, filter, reduce, sort...) e nem (math min, math max).
+### Vamos utilizar apenas estruturas de repetição como (while, for ou do while)
+
 ## Katas
 
 ### Soma (1 ponto)
