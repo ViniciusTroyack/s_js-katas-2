@@ -27,7 +27,7 @@ function power(x, n){
     let resultado = x;
 
     for(let i = 1; i < n; i++){
-        resultado *= multiply(x, 1);
+        resultado = multiply(x, resultado);
         }
     return resultado;
 }
@@ -39,10 +39,10 @@ console.assert(power(3, 4) === 81, 'A função power não está funcionando como
 // comece a criar a sua função factorial na linha abaixo
 
 function factorial(num1){
-    let resultado = 1
+    let resultado = 1;
 
-    for(let i = 1; i <= num1; i++){
-        resultado *= multiply(i, 1);
+    for(let i = num1; i > 1; i--){
+        resultado = multiply(i, resultado);
     }
     return resultado;
 }
